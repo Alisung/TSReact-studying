@@ -1,0 +1,8 @@
+
+{
+    "infomation" :
+    [
+        {"id":0, "name" : "김씨", "password" : 12345},
+        {"id":1 ,"name" : "이씨", "password" : 1357}
+    ]
+}
