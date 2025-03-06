@@ -1,7 +1,10 @@
+
 import React, { useEffect, useState } from "react";
 import {styled} from "styled-components";
 
-
+export interface divProps {
+  display : boolean;
+}
 const InputElement : React.FC = ()=> {
     const [userId,setUserId] = useState("")
     const [userPassWord, setUserPassword] = useState("")
@@ -43,9 +46,7 @@ const InputElement : React.FC = ()=> {
 }
 
 
-export interface divProps {
-  display : boolean;
-}
+
 
 const SignupBox = styled.div<divProps>`
 display : ${(props) => (props.display ? "block" : "none")}

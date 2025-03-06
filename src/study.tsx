@@ -1,3 +1,4 @@
+
 import React from "react";
 
 export interface NameBox {
@@ -15,5 +16,6 @@ const NameboxList : React.FC<NameBox>= ({name,address,addressChange}) => {
     
     </>)
 }
+
 
 export default NameboxList
